@@ -23,6 +23,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pantokrator.Api.Payment", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pantokrator.Api.Order", "src\Modules\Pantokrator.Api.Order\Pantokrator.Api.Order.csproj", "{41BAE1FA-00DC-45A6-B912-A3A78EEF7DC1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2C63CBE8-5E1A-4FA3-9CFA-EF4DE79BA6A0}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pantokrator.Api.Customer", "src\Modules\Pantokrator.Api.Customer\Pantokrator.Api.Customer.csproj", "{12F78C06-7749-4D7E-94AF-7FE3C72374F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +64,10 @@ Global
 		{41BAE1FA-00DC-45A6-B912-A3A78EEF7DC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41BAE1FA-00DC-45A6-B912-A3A78EEF7DC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41BAE1FA-00DC-45A6-B912-A3A78EEF7DC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12F78C06-7749-4D7E-94AF-7FE3C72374F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12F78C06-7749-4D7E-94AF-7FE3C72374F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12F78C06-7749-4D7E-94AF-7FE3C72374F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12F78C06-7749-4D7E-94AF-7FE3C72374F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -69,6 +80,7 @@ Global
 		{50774EFF-FE52-426E-A0FC-2E0B2C2F759A} = {D117FCC5-588C-440F-B873-62387F5C5724}
 		{9AD3B2B8-5705-45DA-B8C8-09BA2C655391} = {50FC3C8D-E48F-493D-9793-169799ACA889}
 		{41BAE1FA-00DC-45A6-B912-A3A78EEF7DC1} = {50FC3C8D-E48F-493D-9793-169799ACA889}
+		{12F78C06-7749-4D7E-94AF-7FE3C72374F6} = {50FC3C8D-E48F-493D-9793-169799ACA889}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {34185410-A0C6-469E-A3D3-BEE10744C2ED}

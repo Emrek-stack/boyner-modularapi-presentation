@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Pantokrator.Core;
+using Pantokrator.Data;
 using Swashbuckle.AspNetCore.Swagger;
 
 namespace Pantokrator.Api.App
@@ -20,6 +21,7 @@ namespace Pantokrator.Api.App
         public void ConfigureServices(IServiceCollection services)
         {
             services.ModuleLoader();
+            services.AddDataModule();
 
             // Register the Swagger generator, defining one or more Swagger documents
             services.AddSwaggerGen(c =>
