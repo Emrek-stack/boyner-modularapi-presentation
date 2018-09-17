@@ -21,18 +21,18 @@ namespace Pantokrator.Data
 
         public void GenerateSampleData()
         {
-            Contacts.Add(new Contact { Id = 1, FirstName = "John", LastName = "Doe", Email = "john@example.com" });
-            Contacts.Add(new Contact { Id = 2, FirstName = "Peter", LastName = "Jones", Email = "peter@example.com" });
-            Contacts.Add(new Contact { Id = 3, FirstName = "Mary", LastName = "Smith", Email = "mary@example.com" });
-            Contacts.Add(new Contact { Id = 4, FirstName = "Ian", LastName = "Green", Email = "ian@example.com" });
-            Contacts.Add(new Contact { Id = 5, FirstName = "Nancy", LastName = "Brownwood", Email = "nancy@example.com" });
-            Contacts.Add(new Contact { Id = 6, FirstName = "Tommy", LastName = "High", Email = "tommy@example.com" });
-            Contacts.Add(new Contact { Id = 7, FirstName = "Gabriel", LastName = "Santos", Email = "gabriel@example.com" });
-            Contacts.Add(new Contact { Id = 8, FirstName = "Ryan", LastName = "James", Email = "ryan@example.com" });
-            Contacts.Add(new Contact { Id = 9, FirstName = "Marc", LastName = "James", Email = "marc@example.com" });
-            Contacts.Add(new Contact { Id = 10, FirstName = "James", LastName = "Dallas", Email = "james@example.com" });
-            Contacts.Add(new Contact { Id = 11, FirstName = "Ron", LastName = "Steer", Email = "ron@example.com" });
-            Contacts.Add(new Contact { Id = 12, FirstName = "Liam", LastName = "Schwarz", Email = "liam@example.com" });
+            Contacts.Add(new Contact { Id = 1, FirstName = "Emre", LastName = "Karahan", Email = "ekarahan@boynergrup.com" });
+            Contacts.Add(new Contact { Id = 2, FirstName = "Turgay", LastName = "Sargın", Email = "tsargin@boynergrup.com" });
+            Contacts.Add(new Contact { Id = 3, FirstName = "Selçuk", LastName = "Yıldırım", Email = "syildirim@boynergrup.com" });
+            Contacts.Add(new Contact { Id = 4, FirstName = "Rıdvan", LastName = "Eyyüpkoca", Email = "reyyubkoca@boynergrup.com" });
+            Contacts.Add(new Contact { Id = 5, FirstName = "Dilara", LastName = "Özırmak", Email = "dozirmak@boynergrup.com" });
+            Contacts.Add(new Contact { Id = 6, FirstName = "Ozan Emre", LastName = "Değirmenci", Email = "odegirmenci@boynergrup.com" });
+            Contacts.Add(new Contact { Id = 7, FirstName = "Burak", LastName = "Tahtalıoğlu", Email = "btahtalioglu@boynergrup.com" });
+            Contacts.Add(new Contact { Id = 8, FirstName = "Filiz", LastName = "Altıntürk", Email = "faltinturk@boynergrup.com" });
+            Contacts.Add(new Contact { Id = 9, FirstName = "Ahmet", LastName = "Kurt", Email = "akurt@boynergrup.com" });
+            Contacts.Add(new Contact { Id = 10, FirstName = "Berk", LastName = "Yavuz", Email = "byavuz@boynergrup.com" });
+            Contacts.Add(new Contact { Id = 11, FirstName = "Muratcan", LastName = "Köker", Email = "mkoker@boynergrup.com" });
+            Contacts.Add(new Contact { Id = 12, FirstName = "Barış", LastName = "Gülmez", Email = "bgulmez@boynergrup.com" });
 
             SaveChanges();
         }
