@@ -1,5 +1,4 @@
-﻿using System;
-using System.IO;
+﻿using System.IO;
 using System.Linq;
 using System.Reflection;
 using Microsoft.AspNetCore.Hosting;
@@ -35,9 +34,7 @@ namespace Pantokrator.Core
 
         private static Assembly[] LoadModules(string modulesPath)
         {
-
             string[] files = Directory.GetFiles(modulesPath, "*.dll", SearchOption.AllDirectories);
-
             var assemblies = files.Select(Assembly.LoadFile);
 
             var moduleAssembly = (from assembly in assemblies
