@@ -7,7 +7,7 @@ namespace Pantokrator.Data
     {
         public static IServiceCollection AddDataModule(this IServiceCollection services)
         {
-            services.AddDbContext<SampleDbContext>(o => o.UseInMemoryDatabase());
+            services.AddDbContext<SampleDbContext>(o => o.UseInMemoryDatabase());            
             return services;
         }
     }
