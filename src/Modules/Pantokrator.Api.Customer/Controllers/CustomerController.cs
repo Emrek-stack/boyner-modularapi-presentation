@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -23,7 +21,6 @@ namespace Pantokrator.Api.Customer.Controllers
             _context.SaveChanges();
             _context.GenerateSampleData();
         }
-
         
         [HttpGet("{id}")]
         public async Task<IActionResult> Get(int id)
@@ -32,7 +29,6 @@ namespace Pantokrator.Api.Customer.Controllers
             return Ok(dataPage);
         }
         
-
         [HttpGet]
         public IActionResult Get([FromQuery]PagedBaseApiRequest request)
         {           
